@@ -1,0 +1,12 @@
+repairSFX_engineer_1 hideObjectGlobal false;
+repairSFX_engineer_1 enableSimulationGlobal true;
+sleep (random 1);
+repairSFX_engineer_2 hideObjectGlobal false;
+repairSFX_engineer_2 enableSimulationGlobal true;
+sleep (random 1);
+repairSFX_engineer_3 hideObjectGlobal false;
+repairSFX_engineer_3 enableSimulationGlobal true;
+sleep (random 1);
+repairSFX_engineer_4 hideObjectGlobal false;
+repairSFX_engineer_4 enableSimulationGlobal true;
+sleep (random 1);
