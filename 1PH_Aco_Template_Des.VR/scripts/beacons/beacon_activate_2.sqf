@@ -14,4 +14,4 @@ if (isNil "spawnDelayb2") then
 	},{hint "Deploying interrupted"},"Deploying Reinforcement Beacon (2)"] call ace_common_fnc_progressBar;
 	sleep 30;
 	spawnDelayb2 = nil;
-} else {hint "Reinforcement group 2 unavailable";};
+} else {hint "Reinforcement group 2 on cooldown";};

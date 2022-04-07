@@ -6,6 +6,13 @@ player setSpeaker "NoVoice";
 // Prevents player from removing grass with viewdistance tool
 CHVD_allowNoGrass = false;
 
+// Command ACE action to declutter ACE self interact menu.
+_command1PHcode = {
+	hint "Use the sub-menus for 1PH special functions";
+};
+_command1PHaction = ["1PH","1PH","",_command1PHcode,{true}] call ace_interact_menu_fnc_createAction;
+[player, 1, ["ACE_SelfActions"], _command1PHaction] call ace_interact_menu_fnc_addActionToObject; 
+
 //AceGrassCutter to all players
 _AceGrassCut = ["grass_cut","Cut Grass","",
 	{[player] call ace_common_fnc_goKneeling; [player, "AinvPknlMstpSnonWnonDnon_medic_1",1] call ace_common_fnc_doAnimation;
@@ -13,13 +20,13 @@ _AceGrassCut = ["grass_cut","Cut Grass","",
 	 _cutter setPos (getPos player); hint "Grass Cut"},{hint "Cutting interupted"},"Cutting Grass"] call ace_common_fnc_progressBar
 	},{true}] call ace_interact_menu_fnc_createAction;
 
-[player, 1, ["ACE_SelfActions", "ACE_Equipment"], _AceGrassCut] call ace_interact_menu_fnc_addActionToObject;
+[player, 1, ["ACE_SelfActions", "1PH"], _AceGrassCut] call ace_interact_menu_fnc_addActionToObject;
 
 _AceRolledSleeves = ["roll_sleeve","Roll Sleeve","",
 	{[player] call ace_common_fnc_goKneeling; [2,[],{execVM "allRTrollsleeves.sqf"},{hint "Rolling Sleeve interupted"},"Rolling Sleeve"] call ace_common_fnc_progressBar
 	},{true}] call ace_interact_menu_fnc_createAction;
 
-[player, 1, ["ACE_SelfActions", "ACE_Equipment"], _AceRolledSleeves] call ace_interact_menu_fnc_addActionToObject;
+[player, 1, ["ACE_SelfActions", "1PH"], _AceRolledSleeves] call ace_interact_menu_fnc_addActionToObject;
 
 // Adds Platoon Rally Point deployment ability to all players when they become team lead.
 _WplatoonRP = ["Wplatoon_rp","Deploy Platoon RP","",
@@ -43,7 +50,7 @@ _WplatoonRP = ["Wplatoon_rp","Deploy Platoon RP","",
 		}
 	},{true}] call ace_interact_menu_fnc_createAction;
 
-[player, 1, ["ACE_SelfActions"], _WplatoonRP] call ace_interact_menu_fnc_addActionToObject;
+[player, 1, ["ACE_SelfActions","1PH"], _WplatoonRP] call ace_interact_menu_fnc_addActionToObject;
 
 
 // Adds Reinforcement Beacon (1) deployment ability to all players when they become team lead.
@@ -67,7 +74,7 @@ _wBeacon1 = ["wBeacon_1","Deploy Reinforcement Beacon (1)","",
 		}
 	},{true}] call ace_interact_menu_fnc_createAction;
 
-[player, 1, ["ACE_SelfActions"], _wBeacon1] call ace_interact_menu_fnc_addActionToObject;
+[player, 1, ["ACE_SelfActions","1PH"], _wBeacon1] call ace_interact_menu_fnc_addActionToObject;
 
 // Adds Reinforcement Beacon (2) deployment ability to all players when they become team lead.
 _wBeacon2 = ["wBeacon_2","Deploy Reinforcement Beacon (2)","",
@@ -90,7 +97,7 @@ _wBeacon2 = ["wBeacon_2","Deploy Reinforcement Beacon (2)","",
 		}
 	},{true}] call ace_interact_menu_fnc_createAction;
 
-[player, 1, ["ACE_SelfActions"], _wBeacon2] call ace_interact_menu_fnc_addActionToObject;
+[player, 1, ["ACE_SelfActions","1PH"], _wBeacon2] call ace_interact_menu_fnc_addActionToObject;
 
 // Adds Reinforcement Beacon (3) deployment ability to all players when they become team lead.
 _wBeacon3 = ["wBeacon_3","Deploy Reinforcement Beacon (3)","",
@@ -113,4 +120,4 @@ _wBeacon3 = ["wBeacon_3","Deploy Reinforcement Beacon (3)","",
 		}
 	},{true}] call ace_interact_menu_fnc_createAction;
 
-[player, 1, ["ACE_SelfActions"], _wBeacon3] call ace_interact_menu_fnc_addActionToObject;
+[player, 1, ["ACE_SelfActions","1PH"], _wBeacon3] call ace_interact_menu_fnc_addActionToObject;

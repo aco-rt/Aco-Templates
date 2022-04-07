@@ -14,4 +14,4 @@ _num = player nearEntities ['Man',15];
 		}
 },{true}] call ace_interact_menu_fnc_createAction;
 
-[_unit, 1, ["ACE_SelfActions"], _westsquadRP1] call ace_interact_menu_fnc_addActionToObject;
+[_unit, 1, ["ACE_SelfActions","1PH"], _westsquadRP1] call ace_interact_menu_fnc_addActionToObject;
