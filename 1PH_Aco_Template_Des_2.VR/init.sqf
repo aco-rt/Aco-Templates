@@ -24,5 +24,8 @@ enableTeamswitch false;
 "RPMARK_1" setMarkerDir 000;
 "FHQMark" setMarkerDir 000;
 
+// Corbec units get their arm patches here.
+null = [] execVM "rtpatch\patchscript.sqf";
+
 //This sets up the arsenal box
-//execVM "scripts\arsenal_boxes.sqf";
+execVM "scripts\arsenal_boxes.sqf";

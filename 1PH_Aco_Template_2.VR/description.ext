@@ -18,7 +18,7 @@ respawnTemplates[] = {"ace_spectator","Counter","Wave","Tickets"};
 disabledai=1;
 
 // This allegedly disables global/side/command/group channels.
-disableChannels[] ={{0,true,true},{1,true,true},{2,true,true},{3,true,true}};
+//disableChannels[] ={{0,true,true},{1,true,true},{2,true,true},{3,true,true}};
 
 class CfgFunctions
 {
