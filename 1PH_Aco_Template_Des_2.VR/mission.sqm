@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=936;
+		nextID=938;
 	};
 	class Camera
 	{
-		pos[]={-40.373421,38.910332,96.805725};
-		dir[]={0.94633323,-0.32327044,0.00096060545};
-		up[]={0.32328552,0.94629794,0.00032837328};
-		aside[]={0.0010150974,4.055255e-008,-1.0000172};
+		pos[]={18.353264,14.716276,105.51063};
+		dir[]={0.67986012,-0.47315133,0.56033665};
+		up[]={0.36512899,0.8809706,0.30093741};
+		aside[]={0.63602638,1.1315569e-007,-0.77169418};
 	};
 };
 binarizationWanted=0;
@@ -10256,7 +10256,7 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={27.607628,5,112.55712};
+						position[]={27.608,5,112.557};
 					};
 					id=57;
 					type="SpyderAddons_sup_vehiclespawn";
@@ -10410,7 +10410,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="B_BLUCW_M2StaticMG_WD ,B_BLUCW_M2StaticMG_MiniTripod_WD ,B_BLUCW_TOW_TriPod_WD ,B_BLUCW_MK19_TriPod_WD ,B_BLUCW_Mortar_01_F";
+									value="B_BLUCHUSW_CUP_B_CUP_Stinger_AA_pod_US,B_BLUCHUSW_HMG_02_low,B_BLUCHUSW_HMG_02_high,B_BLUCHUSW_CUP_B_TOW2_TriPod_US,B_BLUCHUSW_CUP_B_M252_US,B_BLUCHUSW_CUP_B_MK19_TriPod_US,B_BLUCHUSW_CUP_B_CUP_SearchLight_static_US";
 								};
 							};
 						};
