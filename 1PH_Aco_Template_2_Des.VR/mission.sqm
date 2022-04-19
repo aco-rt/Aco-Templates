@@ -31,7 +31,7 @@ class EditorData
 	};
 };
 binarizationWanted=0;
-sourceName="1PH_Aco_Template_Des_2";
+sourceName="1PH_Aco_Template_2_Des";
 addons[]=
 {
 };

@@ -14,3 +14,4 @@ Current difference from 1PH base template: (Updated on 4/18/2022)
 7. All the medics have their own medical stations.
 
 Desert template added on 4/7/2022 and updated on 4/18/2022
+Arid template added on 4/19/2022 - Arid uses Bren 2 5.56 varient.
