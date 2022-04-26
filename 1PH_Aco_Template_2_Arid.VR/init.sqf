@@ -29,3 +29,6 @@ null = [] execVM "rtpatch\patchscript.sqf";
 
 //This sets up the arsenal box
 execVM "scripts\arsenal_boxes.sqf";
+
+//Change max weight that can be dragged with ace dragging
+ACE_maxWeightDrag = 2000;

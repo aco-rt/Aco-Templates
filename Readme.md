@@ -16,3 +16,7 @@ Current difference from 1PH base template: (Updated on 4/18/2022)
 Desert template added on 4/7/2022 and updated on 4/18/2022.
 
 Arid template added on 4/19/2022 - Arid uses Bren 2 5.56 varient.
+
+Update 4/26/2022
+- Simplex Support boxes are now dragable with ACE interaction drag.
+- Added 40mm hedp rounds to the mixed ammo box.

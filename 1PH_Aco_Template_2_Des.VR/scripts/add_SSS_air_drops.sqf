@@ -105,7 +105,7 @@ getposASL air_supply_1,     //Location of the airlift start
 	  _this addItemCargoGlobal ["1PH_TSD_Camo",5]; 
 	  _this addItemCargoGlobal ["1PH_TSD_Camo_SS",5];
 	  _this addItemCargoGlobal ["1PH_TS_M92_Cover",5];
-    _this addItemCargoGlobal ["1PH_TSD_M92_Cover",5];
+      _this addItemCargoGlobal ["1PH_TSD_M92_Cover",5];
 	  _this addItemCargoGlobal ["1PH_TS_boonie",5]; 
 	  _this addItemCargoGlobal ["1PH_TS_boonie_D",5]; 
 	  _this addItemCargoGlobal ["1PH_PlateCarrier_lite_OD",5]; 
@@ -169,12 +169,13 @@ getposASL air_supply_1,     //Location of the airlift start
 	  _this addMagazineCargoGlobal ["CUP_30Rnd_762x51_FNFAL_M",30]; 
 	  _this addMagazineCargoGlobal ["CUP_30Rnd_TE1_Red_Tracer_762x51_FNFAL_M",10]; 
 	  _this addMagazineCargoGlobal ["CUP_21Rnd_9x19_M17_Black",20]; 
-	  _this addMagazineCargoGlobal ["HandGrenade",20]; 
+	  _this addMagazineCargoGlobal ["HandGrenade",20];
+	  _this addMagazineCargoGlobal ["CUP_1Rnd_HEDP_M203",20]; 
 	  _this addMagazineCargoGlobal ["SmokeShell",20]; 
 	  _this addMagazineCargoGlobal ["SmokeShellBlue",10]; 
 	  _this addMagazineCargoGlobal ["ACE_M84",10]; 
 	  _this addMagazineCargoGlobal ["CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",10]; 
-	  _this addMagazineCargoGlobal ["MRAWS_HEAT_F",10]; 
+	  _this addMagazineCargoGlobal ["CUP_MAAWS_HEAT_M",10]; 
 	  [_this, true, [0, 2, 0.5], 45] call ace_dragging_fnc_setDraggable;
     }],  
   
@@ -195,7 +196,7 @@ getposASL air_supply_1,     //Location of the airlift start
         clearWeaponCargoGlobal _this; 
         clearBackpackCargoGlobal _this; 
   _this addWeaponCargoGlobal ["launch_MRAWS_green_F",1]; 
-  _this addMagazineCargoGlobal ["MRAWS_HEAT_F",30]; 
+  _this addMagazineCargoGlobal ["CUP_MAAWS_HEAT_M",30]; 
   [_this, true, [0, 2, 0.5], 45] call ace_dragging_fnc_setDraggable;
     }],  
   
@@ -388,7 +389,7 @@ getposASL air_supply_1,     //Location of the airlift start
 	  _this addItemCargoGlobal ["1PH_TSD_Camo",5]; 
 	  _this addItemCargoGlobal ["1PH_TSD_Camo_SS",5];
 	  _this addItemCargoGlobal ["1PH_TS_M92_Cover",5];
-    _this addItemCargoGlobal ["1PH_TSD_M92_Cover",5];
+      _this addItemCargoGlobal ["1PH_TSD_M92_Cover",5];
 	  _this addItemCargoGlobal ["1PH_TS_boonie",5]; 
 	  _this addItemCargoGlobal ["1PH_TS_boonie_D",5]; 
 	  _this addItemCargoGlobal ["1PH_PlateCarrier_lite_OD",5]; 
@@ -452,12 +453,13 @@ getposASL air_supply_1,     //Location of the airlift start
 	  _this addMagazineCargoGlobal ["CUP_30Rnd_762x51_FNFAL_M",30]; 
 	  _this addMagazineCargoGlobal ["CUP_30Rnd_TE1_Red_Tracer_762x51_FNFAL_M",10]; 
 	  _this addMagazineCargoGlobal ["CUP_21Rnd_9x19_M17_Black",20]; 
-	  _this addMagazineCargoGlobal ["HandGrenade",20]; 
+	  _this addMagazineCargoGlobal ["HandGrenade",20];
+	  _this addMagazineCargoGlobal ["CUP_1Rnd_HEDP_M203",20]; 
 	  _this addMagazineCargoGlobal ["SmokeShell",20]; 
 	  _this addMagazineCargoGlobal ["SmokeShellBlue",10]; 
 	  _this addMagazineCargoGlobal ["ACE_M84",10]; 
 	  _this addMagazineCargoGlobal ["CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",10]; 
-	  _this addMagazineCargoGlobal ["MRAWS_HEAT_F",10]; 
+	  _this addMagazineCargoGlobal ["CUP_MAAWS_HEAT_M",10]; 
 	  [_this, true, [0, 2, 0.5], 45] call ace_dragging_fnc_setDraggable;
     }],  
   
@@ -478,7 +480,7 @@ getposASL air_supply_1,     //Location of the airlift start
         clearWeaponCargoGlobal _this; 
         clearBackpackCargoGlobal _this; 
   _this addWeaponCargoGlobal ["launch_MRAWS_green_F",1]; 
-  _this addMagazineCargoGlobal ["MRAWS_HEAT_F",30]; 
+  _this addMagazineCargoGlobal ["CUP_MAAWS_HEAT_M",30]; 
   [_this, true, [0, 2, 0.5], 45] call ace_dragging_fnc_setDraggable;
     }],  
   
@@ -669,7 +671,7 @@ getposASL air_supply_1,     //Location of the airlift start
 	  _this addItemCargoGlobal ["1PH_TSD_Camo",5]; 
 	  _this addItemCargoGlobal ["1PH_TSD_Camo_SS",5];
 	  _this addItemCargoGlobal ["1PH_TS_M92_Cover",5];
-    _this addItemCargoGlobal ["1PH_TSD_M92_Cover",5];
+      _this addItemCargoGlobal ["1PH_TSD_M92_Cover",5];
 	  _this addItemCargoGlobal ["1PH_TS_boonie",5]; 
 	  _this addItemCargoGlobal ["1PH_TS_boonie_D",5]; 
 	  _this addItemCargoGlobal ["1PH_PlateCarrier_lite_OD",5]; 
@@ -733,12 +735,13 @@ getposASL air_supply_1,     //Location of the airlift start
 	  _this addMagazineCargoGlobal ["CUP_30Rnd_762x51_FNFAL_M",30]; 
 	  _this addMagazineCargoGlobal ["CUP_30Rnd_TE1_Red_Tracer_762x51_FNFAL_M",10]; 
 	  _this addMagazineCargoGlobal ["CUP_21Rnd_9x19_M17_Black",20]; 
-	  _this addMagazineCargoGlobal ["HandGrenade",20]; 
+	  _this addMagazineCargoGlobal ["HandGrenade",20];
+	  _this addMagazineCargoGlobal ["CUP_1Rnd_HEDP_M203",20]; 
 	  _this addMagazineCargoGlobal ["SmokeShell",20]; 
 	  _this addMagazineCargoGlobal ["SmokeShellBlue",10]; 
 	  _this addMagazineCargoGlobal ["ACE_M84",10]; 
 	  _this addMagazineCargoGlobal ["CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",10]; 
-	  _this addMagazineCargoGlobal ["MRAWS_HEAT_F",10]; 
+	  _this addMagazineCargoGlobal ["CUP_MAAWS_HEAT_M",10]; 
 	  [_this, true, [0, 2, 0.5], 45] call ace_dragging_fnc_setDraggable;
     }],  
   
@@ -759,7 +762,7 @@ getposASL air_supply_1,     //Location of the airlift start
         clearWeaponCargoGlobal _this; 
         clearBackpackCargoGlobal _this; 
   _this addWeaponCargoGlobal ["launch_MRAWS_green_F",1]; 
-  _this addMagazineCargoGlobal ["MRAWS_HEAT_F",30]; 
+  _this addMagazineCargoGlobal ["CUP_MAAWS_HEAT_M",30]; 
   [_this, true, [0, 2, 0.5], 45] call ace_dragging_fnc_setDraggable;
     }],  
   

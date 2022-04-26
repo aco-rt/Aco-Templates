@@ -136,7 +136,8 @@ getposASL air_supply_1,     //Location of the airlift start
 	  _this addMagazineCargoGlobal ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",30]; 
 	  _this addMagazineCargoGlobal ["CUP_30Rnd_TE1_Red_Tracer_762x51_FNFAL_M",10]; 
 	  _this addMagazineCargoGlobal ["CUP_21Rnd_9x19_M17_Black",20]; 
-	  _this addMagazineCargoGlobal ["HandGrenade",20]; 
+    _this addMagazineCargoGlobal ["HandGrenade",20];
+	  _this addMagazineCargoGlobal ["CUP_1Rnd_HEDP_M203",20]; 
 	  _this addMagazineCargoGlobal ["SmokeShell",20]; 
 	  _this addMagazineCargoGlobal ["SmokeShellBlue",10]; 
 	  _this addMagazineCargoGlobal ["ACE_M84",10]; 
@@ -369,7 +370,8 @@ getposASL air_supply_1,     //Location of the airlift start
 	  _this addMagazineCargoGlobal ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",30]; 
 	  _this addMagazineCargoGlobal ["CUP_30Rnd_TE1_Red_Tracer_762x51_FNFAL_M",10]; 
 	  _this addMagazineCargoGlobal ["CUP_21Rnd_9x19_M17_Black",20]; 
-	  _this addMagazineCargoGlobal ["HandGrenade",20]; 
+    _this addMagazineCargoGlobal ["HandGrenade",20];
+	  _this addMagazineCargoGlobal ["CUP_1Rnd_HEDP_M203",20]; 
 	  _this addMagazineCargoGlobal ["SmokeShell",20]; 
 	  _this addMagazineCargoGlobal ["SmokeShellBlue",10]; 
 	  _this addMagazineCargoGlobal ["ACE_M84",10]; 
@@ -602,7 +604,8 @@ getposASL air_supply_1,     //Location of the airlift start
 	  _this addMagazineCargoGlobal ["ACE_30Rnd_556x45_Stanag_M995_AP_mag",30]; 
 	  _this addMagazineCargoGlobal ["CUP_30Rnd_TE1_Red_Tracer_762x51_FNFAL_M",10]; 
 	  _this addMagazineCargoGlobal ["CUP_21Rnd_9x19_M17_Black",20]; 
-	  _this addMagazineCargoGlobal ["HandGrenade",20]; 
+    _this addMagazineCargoGlobal ["HandGrenade",20];
+	  _this addMagazineCargoGlobal ["CUP_1Rnd_HEDP_M203",20]; 
 	  _this addMagazineCargoGlobal ["SmokeShell",20]; 
 	  _this addMagazineCargoGlobal ["SmokeShellBlue",10]; 
 	  _this addMagazineCargoGlobal ["ACE_M84",10]; 
