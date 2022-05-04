@@ -7,7 +7,7 @@ if (isNil "spawnDelayb1") then
 	hint "Reinforcement Beacon (1) Deployed";
 	{deleteVehicle (vehicle _x);deleteVehicle _x;} foreach units ReinforceGroup01;
 	deleteGroup ReinforceGroup01;
-	ReinforceGroup01 = [getPosASL RP_west, west, (configfile >> "CfgGroups" >> "West" >> "BLU_C_HUS_W" >> "Infantry" >> "BLU_C_HUS_W_B_Rifle_Section")] call BIS_fnc_spawngroup;
+	ReinforceGroup01 = [getPosASL RP_west, west, (configfile >> "CfgGroups" >> "West" >> "RavTac" >> "Infantry" >> "RifleSquad2")] call BIS_fnc_spawngroup;
 	reinforce1_wp_0 = ReinforceGroup01 addWaypoint [getPosASL player, 0];
 	reinforce1_wp_0 setWaypointStatements ["true","[this, getPos this, 50] call lambs_wp_fnc_taskPatrol;"];
 	{_x setSkill 0.85} foreach units ReinforceGroup01;

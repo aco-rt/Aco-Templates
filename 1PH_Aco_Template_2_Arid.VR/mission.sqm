@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=2838;
+		nextID=2859;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=948;
+		nextID=950;
 	};
 	class Camera
 	{
-		pos[]={9.3674364,17.007532,101.92671};
-		dir[]={0.80473524,-0.59363359,0.00062586955};
-		up[]={0.59363341,0.80473542,0.00046168859};
-		aside[]={0.00077773328,0,-0.99999976};
+		pos[]={-28.961031,51.243725,115.29099};
+		dir[]={0.77874464,-0.62731087,0.0061654029};
+		up[]={0.62729126,0.77876884,0.0049663302};
+		aside[]={0.0079168566,-4.6566129e-010,-0.99996865};
 	};
 };
 binarizationWanted=0;
@@ -13373,7 +13373,7 @@ class Mission
 							};
 							class secondaryWeapon
 							{
-								name="CUP_launch_M136";
+								name="CUP_launch_M136_Loaded";
 								class primaryMuzzleMag
 								{
 									name="CUP_M136_M";
@@ -13471,7 +13471,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -13778,7 +13778,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -14082,7 +14082,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -14608,7 +14608,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -15125,7 +15125,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -15738,7 +15738,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -16203,7 +16203,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -16464,7 +16464,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -17031,7 +17031,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -17692,7 +17692,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -18209,7 +18209,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -18822,7 +18822,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -19287,7 +19287,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -19548,7 +19548,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -20115,7 +20115,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -20776,7 +20776,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -21293,7 +21293,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -21906,7 +21906,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -22371,7 +22371,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -22632,7 +22632,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -23199,7 +23199,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -23852,7 +23852,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -24136,7 +24136,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -24420,7 +24420,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -24705,7 +24705,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -24990,7 +24990,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -25275,7 +25275,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -25590,7 +25590,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -26047,7 +26047,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -26526,7 +26526,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -26828,7 +26828,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -27093,7 +27093,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -27399,7 +27399,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -27701,7 +27701,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -27966,7 +27966,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
@@ -30632,7 +30632,7 @@ class Mission
 							};
 							class vest
 							{
-								typeName="RavPat_blu4_olive";
+								typeName="RavPat_blu4_OGA";
 								isBackpack=0;
 								class MagazineCargo
 								{
