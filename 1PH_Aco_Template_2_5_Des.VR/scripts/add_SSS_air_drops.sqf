@@ -282,7 +282,7 @@ getposASL air_supply_1,     //Location of the airlift start
 1,     //Maximum number of dropped items.
 4,     //Color of marking smoke.  0=none, 1=yellow, 2=green, 3=red, 4=blue
 360,   //Cooldown after use    
-{(group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init for the air dropping vehicle itself
+{(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init for the air dropping vehicle itself
 BLUFOR, //Side         
 ["FRXA_tf_rt1523g_Ranger_Green","FRXA_tf_rt1523g_big_Ranger_Green","vn_b_pack_prc77_01","vn_b_pack_lw_06"],  //Access items.  Player must have one to use the asset remotely.
 "true", //Access condition.  Must be true for player to see asset at all.        
@@ -564,7 +564,7 @@ getposASL air_supply_1,     //Location of the airlift start
 1,     //Maximum number of dropped items.
 4,     //Color of marking smoke.  0=none, 1=yellow, 2=green, 3=red, 4=blue
 360,   //Cooldown after use    
-{(group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init for the air dropping vehicle itself
+{(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init for the air dropping vehicle itself
 BLUFOR, //Side         
 ["FRXA_tf_rt1523g_Ranger_Green","FRXA_tf_rt1523g_big_Ranger_Green","vn_b_pack_prc77_01","vn_b_pack_lw_06"],  //Access items.  Player must have one to use the asset remotely.
 "true", //Access condition.  Must be true for player to see asset at all.        
@@ -846,7 +846,7 @@ getposASL air_supply_1,     //Location of the airlift start
 1,     //Maximum number of dropped items.
 4,     //Color of marking smoke.  0=none, 1=yellow, 2=green, 3=red, 4=blue
 360,   //Cooldown after use    
-{(group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init for the air dropping vehicle itself
+{(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init for the air dropping vehicle itself
 BLUFOR, //Side         
 ["FRXA_tf_rt1523g_Ranger_Green","FRXA_tf_rt1523g_big_Ranger_Green","vn_b_pack_prc77_01","vn_b_pack_lw_06"],  //Access items.  Player must have one to use the asset remotely.
 "true", //Access condition.  Must be true for player to see asset at all.        

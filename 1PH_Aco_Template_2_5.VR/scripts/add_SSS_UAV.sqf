@@ -11,7 +11,7 @@ sleep 10;
 300,  //Cooldown time between uses
 1200,  //Loiter time
 {
-	(group _this) setVariable ["acex_headless_blacklist",true,true];
+	(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];
 	for "_i" from 1 to 100 do {vehicle _this setPylonLoadout [_i, "", true];};
 	},  //Custom init code
 BLUFOR,  //Side (BLUFOR, OPFOR, or INDEPENDENT)

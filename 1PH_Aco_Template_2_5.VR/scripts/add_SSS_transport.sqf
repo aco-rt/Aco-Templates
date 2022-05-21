@@ -11,7 +11,7 @@ sleep 10;
 tran_helo_1,
 "", //Callsign.  Leave blank for default.
 1800, //Respawn time in seconds.
-{(group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
+{(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
 ["FRXA_tf_rt1523g_Ranger_Green","FRXA_tf_rt1523g_big_Ranger_Green","vn_b_pack_prc77_01","vn_b_pack_lw_06"],  //Access items.  Player must have one to use the asset remotely.
 "true", //Access condition.  Variable must be true if player can use asset.
 "true" //Request approval condition.  Variable must be true if player request is accepted.
@@ -23,7 +23,7 @@ sleep 1;
 tran_helo_2,
 "", //Callsign.  Leave blank for default.
 1800, //Respawn time in seconds.
-{(group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
+{(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
 ["FRXA_tf_rt1523g_Ranger_Green","FRXA_tf_rt1523g_big_Ranger_Green","vn_b_pack_prc77_01","vn_b_pack_lw_06"],  //Access items.  Player must have one to use the asset remotely.
 "true", //Access condition.  Variable must be true if player can use asset.
 "true" //Request approval condition.  Variable must be true if player request is accepted.
@@ -37,7 +37,7 @@ tran_helo_3,
 900, //Respawn time in seconds.
 {_this setcaptive true;
 
-(group _this) setVariable ["acex_headless_blacklist",true,true];
+(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];
 
 _this setObjectTextureGlobal [0, "\CUP\AirVehicles\CUP_AirVehicles_HC3\data\merlinhc3_SAR_co.paa"];
 
@@ -78,7 +78,7 @@ sleep 1;
 tran_helo_4,
 "", //Callsign.  Leave blank for default.
 1800, //Respawn time in seconds.
-{(group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
+{(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
 ["FRXA_tf_rt1523g_Ranger_Green","FRXA_tf_rt1523g_big_Ranger_Green","vn_b_pack_prc77_01","vn_b_pack_lw_06"],  //Access items.  Player must have one to use the asset remotely.
 "true", //Access condition.  Variable must be true if player can use asset.
 "true" //Request approval condition.  Variable must be true if player request is accepted.
@@ -92,7 +92,7 @@ sleep 1;
 tran_apc_1,
 "", //Callsign.  Leave blank for default.
 1800, //Respawn time in seconds.
-{(group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
+{(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
 ["FRXA_tf_rt1523g_Ranger_Green","FRXA_tf_rt1523g_big_Ranger_Green","vn_b_pack_prc77_01","vn_b_pack_lw_06"],  //Access items.  Player must have one to use the asset remotely.
 "true", //Access condition.  Variable must be true if player can use asset.
 "true" //Request approval condition.  Variable must be true if player request is accepted.
@@ -104,7 +104,7 @@ sleep 1;
 tran_car_1,
 "", //Callsign.  Leave blank for default.
 1800, //Respawn time in seconds.
-{(group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
+{(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
 ["FRXA_tf_rt1523g_Ranger_Green","FRXA_tf_rt1523g_big_Ranger_Green","vn_b_pack_prc77_01","vn_b_pack_lw_06"],  //Access items.  Player must have one to use the asset remotely.
 "true", //Access condition.  Variable must be true if player can use asset.
 "true" //Request approval condition.  Variable must be true if player request is accepted.
@@ -116,7 +116,7 @@ sleep 1;
 tran_car_2,
 "", //Callsign.  Leave blank for default.
 1800, //Respawn time in seconds.
-{(group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
+{(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
 ["FRXA_tf_rt1523g_Ranger_Green","FRXA_tf_rt1523g_big_Ranger_Green","vn_b_pack_prc77_01","vn_b_pack_lw_06"],  //Access items.  Player must have one to use the asset remotely.
 "true", //Access condition.  Variable must be true if player can use asset.
 "true" //Request approval condition.  Variable must be true if player request is accepted.
@@ -128,7 +128,7 @@ sleep 1;
 tran_truck_1,
 "", //Callsign.  Leave blank for default.
 1800, //Respawn time in seconds.
-{(group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
+{(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
 ["FRXA_tf_rt1523g_Ranger_Green","FRXA_tf_rt1523g_big_Ranger_Green","vn_b_pack_prc77_01","vn_b_pack_lw_06"],  //Access items.  Player must have one to use the asset remotely.
 "true", //Access condition.  Variable must be true if player can use asset.
 "true" //Request approval condition.  Variable must be true if player request is accepted.
@@ -140,7 +140,7 @@ sleep 1;
 tran_truck_2,
 "", //Callsign.  Leave blank for default.
 1800, //Respawn time in seconds.
-{(group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
+{(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
 ["FRXA_tf_rt1523g_Ranger_Green","FRXA_tf_rt1523g_big_Ranger_Green","vn_b_pack_prc77_01","vn_b_pack_lw_06"],  //Access items.  Player must have one to use the asset remotely.
 "true", //Access condition.  Variable must be true if player can use asset.
 "true" //Request approval condition.  Variable must be true if player request is accepted.
@@ -152,7 +152,7 @@ sleep 1;
 tran_truck_3,
 "", //Callsign.  Leave blank for default.
 1800, //Respawn time in seconds.
-{(group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
+{(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
 ["FRXA_tf_rt1523g_Ranger_Green","FRXA_tf_rt1523g_big_Ranger_Green","vn_b_pack_prc77_01","vn_b_pack_lw_06"],  //Access items.  Player must have one to use the asset remotely.
 "true", //Access condition.  Variable must be true if player can use asset.
 "true" //Request approval condition.  Variable must be true if player request is accepted.
@@ -164,7 +164,7 @@ sleep 1;
 tran_truck_4,
 "", //Callsign.  Leave blank for default.
 1800, //Respawn time in seconds.
-{(group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
+{(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
 ["FRXA_tf_rt1523g_Ranger_Green","FRXA_tf_rt1523g_big_Ranger_Green","vn_b_pack_prc77_01","vn_b_pack_lw_06"],  //Access items.  Player must have one to use the asset remotely.
 "true", //Access condition.  Variable must be true if player can use asset.
 "true" //Request approval condition.  Variable must be true if player request is accepted.
@@ -176,7 +176,7 @@ sleep 1;
 tran_truck_5,
 "", //Callsign.  Leave blank for default.
 1800, //Respawn time in seconds.
-{(group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
+{(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code.
 ["FRXA_tf_rt1523g_Ranger_Green","FRXA_tf_rt1523g_big_Ranger_Green","vn_b_pack_prc77_01","vn_b_pack_lw_06"],  //Access items.  Player must have one to use the asset remotely.
 "true", //Access condition.  Variable must be true if player can use asset.
 "true" //Request approval condition.  Variable must be true if player request is accepted.

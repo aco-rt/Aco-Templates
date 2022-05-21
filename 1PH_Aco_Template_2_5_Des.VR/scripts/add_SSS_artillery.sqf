@@ -13,7 +13,7 @@ arty_1,
 [0,60], //Cooldown.  First number is the base cooldown time.  Second number is extra cooldown time for each round fired.
 24, //Maximum rounds per fire mission.
 100, //Distance in meters for coordination with other similar artillery units.
-{(group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code
+{(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code
 ["FRXA_tf_rt1523g_Ranger_Green","FRXA_tf_rt1523g_big_Ranger_Green","vn_b_pack_prc77_01","vn_b_pack_lw_06"],  //Access items.  Player must have one to use the asset remotely.
 "true", //Access condition.  Must be true if players can use it at all.
 "true"  //Access permission.  Must be true for support provider to approve request.
@@ -28,7 +28,7 @@ arty_2,
 [0,60], //Cooldown.  First number is the base cooldown time.  Second number is extra cooldown time for each round fired.
 24, //Maximum rounds per fire mission.
 100, //Distance in meters for coordination with other similar artillery units.
-{(group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code
+{(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code
 ["FRXA_tf_rt1523g_Ranger_Green","FRXA_tf_rt1523g_big_Ranger_Green","vn_b_pack_prc77_01","vn_b_pack_lw_06"],  //Access items.  Player must have one to use the asset remotely.
 "true", //Access condition.  Must be true if players can use it at all.
 "true"  //Access permission.  Must be true for support provider to approve request.
@@ -43,7 +43,7 @@ arty_3,
 [0,60], //Cooldown.  First number is the base cooldown time.  Second number is extra cooldown time for each round fired.
 24, //Maximum rounds per fire mission.
 100, //Distance in meters for coordination with other similar artillery units.
-{(group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code
+{(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code
 ["FRXA_tf_rt1523g_Ranger_Green","FRXA_tf_rt1523g_big_Ranger_Green","vn_b_pack_prc77_01","vn_b_pack_lw_06"],  //Access items.  Player must have one to use the asset remotely.
 "true", //Access condition.  Must be true if players can use it at all.
 "true"  //Access permission.  Must be true for support provider to approve request.

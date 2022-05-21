@@ -11,7 +11,7 @@ sleep 10;
 1800, //Cooldown
 300, //Loiter Time
 {
-	(group _this) setVariable ["acex_headless_blacklist",true,true];
+	(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];
 	_this setObjectTextureGlobal [0, "\ACM_CustomFactions\Vehicles\VTOL\VTOL_EXT01.paa"];
 	_this setObjectTextureGlobal [1, "\ACM_CustomFactions\Vehicles\VTOL\VTOL_EXT02.paa"];
 	_this setObjectTextureGlobal [2, "\ACM_CustomFactions\Vehicles\VTOL\VTOL_EXT03.paa"];
