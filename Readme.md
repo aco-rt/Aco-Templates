@@ -1,5 +1,12 @@
-# Aco Templates (Deprecated, not updated anymore)
+# Aco Templates 
 
+## Spectre template
+
+First Template ready. This is a vanilla template, change the units to your mission needs. An RHS template is in the works.
+
+
+
+## 1PH templates (Deprecated, not updated anymore)
 These are templates made from 1PH templates used by 1st Para-Hussars. These templates are my spin on the base template. 
 As time goes by more templates will show up for various terrains and situations.
 
