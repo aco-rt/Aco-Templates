@@ -59,7 +59,10 @@ getDir SSS_SupplyItems_01, //Code which tells the game which direction (in degre
 // This is the end of the menu for droppable items.
 "", //Custom init to put on each spawned item 
 BLUFOR, //Side      
-["itemMap"], //Access items.  Player must have at least one to use support.
+[
+"ACRE_PRC77",
+"ACRE_PRC117F"
+], //Access items.  Player must have at least one to use support.
 "true", //Access condition.  Must be true for players to see support.
 "true"  //Access permission.  Must be true for players requests to be accepted by support asset.
        

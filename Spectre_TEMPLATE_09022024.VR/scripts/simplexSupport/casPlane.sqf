@@ -14,9 +14,10 @@ sleep 10;
 {(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code 
 BLUFOR, //Side of unit 
 [
-"itemMap"
+"ACRE_PRC77",
+"ACRE_PRC117F"
 ],  //Access items.  Player must have one to use the asset remotely.
-"true",  //Access condition.  Must be true for asset to appear at all.
+"player getVariable 'slot_JSOC'",  //Access condition.  Must be true for asset to appear at all.
 "true"  //Access permission.  Must be true for player's request to be approved. 
 
 ] call SSS_support_fnc_addCasPlane;
@@ -32,9 +33,10 @@ sleep 1;
 {(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code 
 BLUFOR, //Side of unit 
 [
-"itemMap"
+"ACRE_PRC77",
+"ACRE_PRC117F"
 ],  //Access items.  Player must have one to use the asset remotely.
-"true",  //Access condition.  Must be true for asset to appear at all.
+"player getVariable 'slot_JSOC'",  //Access condition.  Must be true for asset to appear at all.
 "true"  //Access permission.  Must be true for player's request to be approved. 
 
 ] call SSS_support_fnc_addCasPlane;
@@ -50,9 +52,10 @@ sleep 1;
 {(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code 
 BLUFOR, //Side of unit 
 [
-"itemMap"
+"ACRE_PRC77",
+"ACRE_PRC117F"
 ],  //Access items.  Player must have one to use the asset remotely.
-{radioCodeDelta == true AND true}, //Access condition.  Must be true for players to see support. 
+{radioCodeDelta == true AND player getVariable 'slot_JSOC'}, //Access condition.  Must be true for players to see support. 
 "true"  //Access permission.  Must be true for player's request to be approved. 
 
 ] call SSS_support_fnc_addCasPlane;
@@ -68,9 +71,10 @@ sleep 1;
 {(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code 
 BLUFOR, //Side of unit 
 [
-"itemMap"
+"ACRE_PRC77",
+"ACRE_PRC117F"
 ],  //Access items.  Player must have one to use the asset remotely.
-{radioCodeDelta == true AND true}, //Access condition.  Must be true for players to see support. 
+{radioCodeDelta == true AND player getVariable 'slot_JSOC'}, //Access condition.  Must be true for players to see support. 
 "true"  //Access permission.  Must be true for player's request to be approved. 
 
 ] call SSS_support_fnc_addCasPlane;
@@ -86,9 +90,10 @@ sleep 1;
 {(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code 
 BLUFOR, //Side of unit 
 [
-"itemMap"
+"ACRE_PRC77",
+"ACRE_PRC117F"
 ],  //Access items.  Player must have one to use the asset remotely.
-{radioCodeDelta == true AND true}, //Access condition.  Must be true for players to see support. 
+{radioCodeDelta == true AND player getVariable 'slot_JSOC'}, //Access condition.  Must be true for players to see support. 
 "true"  //Access permission.  Must be true for player's request to be approved. 
 
 ] call SSS_support_fnc_addCasPlane;
@@ -104,9 +109,10 @@ sleep 1;
 {(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true];}, //Custom init code 
 BLUFOR, //Side of unit 
 [
-"itemMap"
+"ACRE_PRC77",
+"ACRE_PRC117F"
 ],  //Access items.  Player must have one to use the asset remotely.
-{radioCodeDelta == true AND true}, //Access condition.  Must be true for players to see support. 
+{radioCodeDelta == true AND player getVariable 'slot_JSOC'}, //Access condition.  Must be true for players to see support. 
 "true"  //Access permission.  Must be true for player's request to be approved. 
 
 ] call SSS_support_fnc_addCasPlane;

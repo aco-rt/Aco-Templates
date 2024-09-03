@@ -29,7 +29,7 @@ _WplatoonRP = ["Wplatoon_rp","Deploy Platoon RP","",
 					[player] call ace_common_fnc_goKneeling; [player, "AinvPknlMstpSnonWnonDnon_medic_1",1] call ace_common_fnc_doAnimation;
 					[40,[],{
 						
-					RPwest setVehiclePosition [(player modelToWorld[0,2,0]), [],0.5, "CAN_COLLIDE"];
+					RP_west setVehiclePosition [(player modelToWorld[0,2,0]), [],0.5, "CAN_COLLIDE"];
 					wsquadRP1 setVehiclePosition [(player modelToWorld[1.5,1.5,0]), [],0.2, "CAN_COLLIDE"];
 					wsquadRP2 setVehiclePosition [(player modelToWorld[-1.5,3,0]), [],0.2, "CAN_COLLIDE"];
 					wsquadRP3 setVehiclePosition [(player modelToWorld[-1.5,1,0]), [],0.2, "CAN_COLLIDE"];
@@ -53,7 +53,9 @@ _WplatoonRP = ["Wplatoon_rp","Deploy Platoon RP","",
 		}
 	},{true}] call ace_interact_menu_fnc_createAction;
 
+if ((!isNil {player getVariable "slot_AirSquadron"}) OR (!isNil {player getVariable "slot_Cavalry"}) OR (!isNil {player getVariable "slot_Pathfinder"}) OR (!isNil {player getVariable "slot_StrapHanger"})) then {} else {
 [player, 1, ["ACE_SelfActions","Spectre"], _WplatoonRP] call ace_interact_menu_fnc_addActionToObject;
+};
 
 // FARP Setup
 if (!isNil "farpLogic_01") then {
@@ -129,6 +131,22 @@ if (isNil {player getVariable "slot_Cavalry"}) then {} else {
 [player, 1, ["ACE_SelfActions","Spectre"], _dropSystemTarp] call ace_interact_menu_fnc_addActionToObject;
 };
 
+// Adds ability to track OPFOR units.
+_playerTrackingOpfor = ["playerTrackingOpfor","Check for tracks","",
+	{
+
+		[player, "Acts_Ambient_Picking_Up",1] call ace_common_fnc_doAnimation;
+		
+		[10,[],{[player,300] execVM "scripts\pathFinderTracking.sqf";}
+		,
+		{hint "Tracking cancelled"},"Checking for tracks"] call ace_common_fnc_progressBar
+				
+		
+	},{true}] call ace_interact_menu_fnc_createAction;
+
+if (isNil {player getVariable "slot_PathFinder"}) then {} else {
+[player, 1, ["ACE_SelfActions","Spectre"], _playerTrackingOpfor] call ace_interact_menu_fnc_addActionToObject;
+};
 
 //This enables Citadel's Triage System if the module is present
 if (!isNil "citadelsTriageSystemModule_01") then {

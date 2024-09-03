@@ -16,9 +16,10 @@ arty_1,
 100, //Distance in meters for coordination with other similar artillery units.
 {(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true]; _this enableRopeAttach false;}, //Custom init code
 [
-"itemMap"
+"ACRE_PRC77",
+"ACRE_PRC117F"
 ],  //Access items.  Player must have one to use the asset remotely.
-"true", //Access condition.  Must be true for players to see support.
+"player getVariable 'slot_JSOC'", //Access condition.  Must be true for players to see support.
 "true"  //Access permission.  Must be true for support provider to approve request.
 ] call SSS_support_fnc_addArtillery;
 
@@ -33,9 +34,10 @@ arty_2,
 100, //Distance in meters for coordination with other similar artillery units.
 {(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true]; _this enableRopeAttach false;}, //Custom init code
 [
-"itemMap"
+"ACRE_PRC77",
+"ACRE_PRC117F"
 ],  //Access items.  Player must have one to use the asset remotely.
-"true", //Access condition.  Must be true for players to see support.
+"player getVariable 'slot_JSOC'", //Access condition.  Must be true for players to see support.
 "true"  //Access permission.  Must be true for support provider to approve request.
 ] call SSS_support_fnc_addArtillery;
 
@@ -50,9 +52,10 @@ arty_3,
 100, //Distance in meters for coordination with other similar artillery units.
 {(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true]; _this enableRopeAttach false;}, //Custom init code
 [
-"itemMap"
+"ACRE_PRC77",
+"ACRE_PRC117F"
 ],  //Access items.  Player must have one to use the asset remotely.
-"true", //Access condition.  Must be true for players to see support.
+"player getVariable 'slot_JSOC'", //Access condition.  Must be true for players to see support.
 "true"  //Access permission.  Must be true for support provider to approve request.
 ] call SSS_support_fnc_addArtillery;
 
@@ -67,9 +70,10 @@ arty_4,
 100, //Distance in meters for coordination with other similar artillery units. 
 {(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true]; _this enableRopeAttach false;}, //Custom init code 
 [
-"itemMap"
+"ACRE_PRC77",
+"ACRE_PRC117F"
 ],  //Access items.  Player must have one to use the asset remotely.
-{radioCodeDelta == true}, //Access condition.  Must be true for players to see support. 
+{radioCodeDelta == true AND player getVariable 'slot_JSOC'}, //Access condition.  Must be true for players to see support. 
 "true"  //Access permission.  Must be true for support provider to approve request. 
 ] call SSS_support_fnc_addArtillery;
 
@@ -84,9 +88,10 @@ arty_5,
 100, //Distance in meters for coordination with other similar artillery units. 
 {(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true]; _this enableRopeAttach false;}, //Custom init code 
 [
-"itemMap"
+"ACRE_PRC77",
+"ACRE_PRC117F"
 ],  //Access items.  Player must have one to use the asset remotely.
-{radioCodeDelta == true}, //Access condition.  Must be true for players to see support. 
+{radioCodeDelta == true AND player getVariable 'slot_JSOC'}, //Access condition.  Must be true for players to see support. 
 "true"  //Access permission.  Must be true for support provider to approve request. 
 ] call SSS_support_fnc_addArtillery;
 
@@ -101,8 +106,9 @@ arty_6,
 100, //Distance in meters for coordination with other similar artillery units. 
 {(group _this) setVariable ["zhc_offload_blacklisted",true,true]; (group _this) setVariable ["acex_headless_blacklist",true,true]; _this enableRopeAttach false;}, //Custom init code 
 [
-"itemMap"
+"ACRE_PRC77",
+"ACRE_PRC117F"
 ],  //Access items.  Player must have one to use the asset remotely.
-{radioCodeDelta == true}, //Access condition.  Must be true for players to see support. 
+{radioCodeDelta == true AND player getVariable 'slot_JSOC'}, //Access condition.  Must be true for players to see support. 
 "true"  //Access permission.  Must be true for support provider to approve request. 
 ] call SSS_support_fnc_addArtillery;
