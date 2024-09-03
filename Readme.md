@@ -4,6 +4,9 @@
 
 First Template ready. This is a vanilla template, change the units to your mission needs. An RHS template is in the works.
 
+Update 09/02/2024
+- Template updated with RHS assets.
+
 
 
 ## 1PH templates (Deprecated, not updated anymore)
