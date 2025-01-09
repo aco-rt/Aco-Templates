@@ -1063,7 +1063,7 @@ force force simplesuppress_suppress_projectileMaxDistance = 9;
 force force simplesuppress_suppress_shooterMinDistance = 0;
 
 // Simplex Support Services
-force force SSS_setting_adminFullAccess = false;
+force force SSS_setting_adminFullAccess = true;
 force force SSS_setting_adminLimitSide = false;
 force force SSS_setting_cleanupCrew = true;
 force force SSS_setting_deleteVehicleOnEntityRemoval = false;
