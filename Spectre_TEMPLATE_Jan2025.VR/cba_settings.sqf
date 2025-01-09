@@ -10,7 +10,7 @@ force force ace_advanced_ballistics_simulationInterval = 0.05;
 force force ace_advanced_fatigue_enabled = true;
 force force ace_advanced_fatigue_enableStaminaBar = true;
 force force ace_advanced_fatigue_fadeStaminaBar = true;
-force force ace_advanced_fatigue_loadFactor = 0;
+force force ace_advanced_fatigue_loadFactor = 0.5;
 force force ace_advanced_fatigue_performanceFactor = 2;
 force force ace_advanced_fatigue_recoveryFactor = 3;
 force force ace_advanced_fatigue_terrainGradientFactor = 1;
@@ -26,7 +26,6 @@ force force ace_advanced_throwing_showThrowArc = true;
 // ACE Advanced Vehicle Damage
 force force ace_vehicle_damage_enableCarDamage = false;
 force force ace_vehicle_damage_enabled = true;
-force force ace_vehicle_damage_removeAmmoDuringCookoff = false;
 
 // ACE AI
 force ace_ai_assignNVG = false;
@@ -61,7 +60,7 @@ force force ace_captives_requireSurrenderAi = false;
 
 // ACE Casings
 ace_casings_enabled = true;
-ace_casings_maxCasings = 250;
+ace_casings_maxCasings = 100;
 
 // ACE Common
 force force ace_common_allowFadeMusic = true;
@@ -384,7 +383,7 @@ ace_nametags_nametagColorMain = [1,1,1,1];
 ace_nametags_nametagColorRed = [1,0.67,0.67,1];
 ace_nametags_nametagColorYellow = [1,1,0.4,1];
 force force ace_nametags_playerNamesMaxAlpha = 0.8;
-force force ace_nametags_playerNamesViewDistance = 10;
+force force ace_nametags_playerNamesViewDistance = 5;
 force force ace_nametags_showCursorTagForVehicles = false;
 force force ace_nametags_showNamesForAI = false;
 ace_nametags_showPlayerNames = 5;
@@ -396,7 +395,7 @@ ace_nametags_tagSize = 2;
 // ACE Nightvision
 force force ace_nightvision_aimDownSightsBlur = 0;
 force force ace_nightvision_disableNVGsWithSights = false;
-force force ace_nightvision_effectScaling = 1;
+force force ace_nightvision_effectScaling = 0.5;
 force force ace_nightvision_fogScaling = 0.262569;
 force force ace_nightvision_noiseScaling = 0.520833;
 force force ace_nightvision_shutterEffects = true;
@@ -463,7 +462,7 @@ force ace_repair_patchWheelRequiredItems = ["ace_repair_anyToolKit"];
 force ace_repair_patchWheelTime = 5;
 force force ace_repair_repairDamageThreshold = 0.85;
 force force ace_repair_repairDamageThreshold_engineer = 0.7;
-force ace_repair_timeCoefficientFullRepair = 1.5;
+force ace_repair_timeCoefficientFullRepair = 1.0;
 force ace_repair_wheelChangeTime = 10;
 force force ace_repair_wheelRepairRequiredItems = [];
 
@@ -509,7 +508,7 @@ force force ace_trenches_smallEnvelopeDigDuration = 45;
 force force ace_trenches_smallEnvelopeRemoveDuration = 30;
 
 // ACE Uncategorized
-force ace_fastroping_autoAddFRIES = true;
+force force ace_fastroping_autoAddFRIES = true;
 force force ace_fastroping_requireRopeItems = false;
 force force ace_gunbag_swapGunbagEnabled = true;
 force force ace_hitreactions_minDamageToTrigger = 0.1;
@@ -521,7 +520,8 @@ force force ace_microdagr_mapDataAvailable = 2;
 force force ace_microdagr_waypointPrecision = 3;
 force force ace_noradio_enabled = true;
 force force ace_optionsmenu_showNewsOnMainMenu = false;
-force force ace_overpressure_distanceCoefficient = 0.25;
+force force ace_overpressure_backblastDistanceCoefficient = 1;
+force force ace_overpressure_distanceCoefficient = 1.0;
 force force ace_parachute_failureChance = 0.03;
 force force ace_parachute_hideAltimeter = true;
 force force ace_tagging_quickTag = 1;
@@ -648,7 +648,7 @@ force acre_sys_radio_defaultRadio = "ACRE_PRC343";
 force acre_sys_signal_signalModel = 2;
 
 // ACRE2 Gestures
-acre_sys_gestures_enabled = true;
+force force acre_sys_gestures_enabled = true;
 acre_sys_gestures_stopADS = false;
 
 // ACRE2 UI
@@ -706,7 +706,7 @@ cba_ui_notifyLifetime = 4;
 cba_ui_StorePasswords = 1;
 
 // DUI - Squad Radar - Indicators
-force force diwako_dui_indicators_crew_range_enabled = true;
+force force diwako_dui_indicators_crew_range_enabled = false;
 force force diwako_dui_indicators_fov_scale = true;
 force force diwako_dui_indicators_icon_buddy = true;
 force force diwako_dui_indicators_icon_leader = true;
@@ -714,7 +714,7 @@ force force diwako_dui_indicators_icon_medic = true;
 force force diwako_dui_indicators_range = 20;
 force force diwako_dui_indicators_range_crew = 300;
 force force diwako_dui_indicators_range_scale = true;
-force force diwako_dui_indicators_show = true;
+force force diwako_dui_indicators_show = false;
 force force diwako_dui_indicators_size = 0.981386;
 force force diwako_dui_indicators_style = "diamond";
 diwako_dui_indicators_useACENametagsRange = true;
@@ -803,7 +803,7 @@ force force diwako_dui_radar_showSpeaking = true;
 force force diwako_dui_radar_showSpeaking_radioOnly = false;
 force force diwako_dui_radar_showSpeaking_replaceIcon = true;
 force force diwako_dui_radar_sortType = "fireteam2";
-force force diwako_dui_radar_sqlFirst = true;
+force force diwako_dui_radar_sqlFirst = false;
 force force diwako_dui_radar_syncGroup = true;
 force force diwako_dui_radar_vehicleCompassEnabled = true;
 diwako_dui_use_layout_editor = false;
@@ -848,6 +848,15 @@ force grad_captiveWalking_functions_allowRunning = true;
 force grad_captiveWalking_functions_allowWalkingWhileCaptiv = true;
 force grad_captiveWalking_functions_disableEscorting = false;
 force grad_captiveWalking_functions_freeingTime = 35;
+
+// GRAD Pace Count Beads
+grad_paceCountBeads_functions_allowPaceCountBeads = true;
+grad_paceCountBeads_functions_constantlyShow = false;
+grad_paceCountBeads_functions_showOnChange = true;
+
+// GRAD slingHelmet
+force force GRAD_slingHelmet_additionalList = "";
+force force GRAD_slingHelmet_allowAll = true;
 
 // GRAD Trenches
 force force grad_trenches_functions_allowBigEnvelope = true;
@@ -928,6 +937,62 @@ force force hatg_setting_ui_use_image = false;
 force force hatg_setting_ui_x = 0;
 force force hatg_setting_ui_y = 0;
 
+// IEDD Notebook
+force force iedd_ied_actMaxRange = 500;
+force force iedd_ied_actMinRange = 300;
+force force iedd_ied_addDefusalKit = false;
+force force iedd_ied_addNotebook = false;
+force force iedd_ied_defaultColor = "random";
+force force iedd_ied_defaultDecals = false;
+force force iedd_ied_defaultDirection = false;
+force force iedd_ied_defaultDud = 0.1;
+force force iedd_ied_defaultFake = 0.25;
+force force iedd_ied_defaultRandomTimer = 2;
+force force iedd_ied_defaultSize = 2;
+force force iedd_ied_defaultTimer = 2;
+iedd_ied_defaultTimerMax = 270;
+iedd_ied_defaultTimerMin = 180;
+iedd_ied_defaultTimerValue = 240;
+force force iedd_ied_defaultVariation = 6;
+force force iedd_ied_defaultVarX = 0;
+force force iedd_ied_expMaxRange = 20;
+force force iedd_ied_expMinRange = 5;
+force force iedd_ied_failChance = 0.25;
+force force iedd_ied_failChanceEOD = 0;
+force force iedd_ied_failExploseChance = 0.2;
+force force iedd_ied_ignoreWireCutOrder = false;
+force force iedd_ied_includeZeus = false;
+force force iedd_ied_isBlockedRange = false;
+force force iedd_ied_isDefusalKit = true;
+force force iedd_ied_isDetectable = true;
+force force iedd_ied_isDuds = false;
+force force iedd_ied_isEod = false;
+force force iedd_ied_maxRange = 15;
+force force iedd_ied_minRange = 5;
+force force iedd_ied_plrCheck = true;
+force force iedd_ied_vehCheck = true;
+force force iedd_ied_wireCutTime = 10;
+force force iedd_ied_wireCutTimeEOD = 5;
+
+// IEDD Notebook VBIED
+force force iedd_vbied_defaultDud = 0.1;
+force force iedd_vbied_defaultEngineOn = 0;
+force force iedd_vbied_defaultGetIn = 0;
+force force iedd_vbied_defaultMoving = 0;
+force iedd_vbied_defaultRandomTimer = 0;
+force force iedd_vbied_defaultSize = 3;
+force iedd_vbied_defaultSpeed = 45;
+force iedd_vbied_defaultTimer = 0;
+iedd_vbied_defaultTimerMax = 150;
+iedd_vbied_defaultTimerMin = 60;
+iedd_vbied_defaultTimerValue = 120;
+force force iedd_vbied_defaultVariation = 5;
+force force iedd_vbied_isDetectable = true;
+force force iedd_vbied_maxRange = 15;
+force force iedd_vbied_minRange = 5;
+force force iedd_vbied_plrCheck = true;
+force force iedd_vbied_vehCheck = true;
+
 // LAMBS Danger
 force force lambs_danger_cqbRange = 60;
 force force lambs_danger_disableAIAutonomousManoeuvres = false;
@@ -976,7 +1041,7 @@ force force lambs_main_radioWest = 750;
 // Laxemann Immerse
 force force L_Immerse_exShake = true;
 force force L_Immerse_force = false;
-force force L_Immerse_recoil = false;
+force force L_Immerse_recoil = true;
 force force L_Immerse_twitch = true;
 
 // No More Aircraft Bouncing
@@ -984,10 +1049,15 @@ force NMAB_setting_classExclusionsStr = "";
 force force NMAB_setting_pfxHelicopters = true;
 force force NMAB_setting_pfxPlanes = true;
 
+// RR Immersive Maps
+force force RR_mapStuff_enableCompassAnimations = true;
+force force RR_mapStuff_enableMapAnimations = true;
+force force RR_mapStuff_enableMapInteractions = true;
+
 // Simple Suppress
 force force simplesuppress_suppress_checkLOS = false;
-force force simplesuppress_suppress_overlayFadeoutTime = 10;
-force force simplesuppress_suppress_overlayOpacity = 0.75;
+force force simplesuppress_suppress_overlayFadeoutTime = 5;
+force force simplesuppress_suppress_overlayOpacity = 0.9;
 force force simplesuppress_suppress_overlayTexture = 1;
 force force simplesuppress_suppress_projectileMaxDistance = 9;
 force force simplesuppress_suppress_shooterMinDistance = 0;
